@@ -1,20 +1,5 @@
 \cvsection{Academic Projects}
-
 \begin{cventries}
-	
-	\cventry
-	{Prof. Rudolph Triebel} % Empty position
-	{Master Thesis - 3D Mesh Segmentation using Transformer Based Graph Operations} % Project
-	{DLR Oberpfaffenhofen, Germany} % Empty location
-	{March 2020 - Nov 2020} % Empty date
-	{
-		\begin{cvitems} % Description(s) bullet points
-			\item {Designed a new a graph convolution operation based on the famous \textbf{transformer} architecture using attention mechanism}
-			\item {Tested the effect of positional encoding on the convolution layer for the task of 3D mesh segmentation}
-			\item {Implemented a custom \textbf{c++/cuda extension} to \textbf{PyTorch} to dynamically calculate neighbors upto certain depth on GPU, to apply the concept of atrous conovlution.}
-		\end{cvitems}
-	}
-
 	\cventry
 	{Prof. Thies Justus} % Empty position
 	{Articulation aware Canonical Surface Mapping} % Project
@@ -22,33 +7,27 @@
 	{April 2020 - July 2020} % Empty date
 	{
 		\begin{cvitems} % Description(s) bullet points
-			\item {Implemened the algorithm from the \href{https://arxiv.org/abs/2004.00614}{paper} to predict canonical surface mapping to map pixels of an object from an image to a 3D template}
+			\item {Implemened the algorithm from the
+			\href{https://arxiv.org/abs/2004.00614}{\textbf{CSM} paper} to predict canonical
+			surface mapping to map pixels of an object from an image to a 3D
+			mesh template. Trained the model on \textbf{ImageNet (Zebra), p3d (car) and
+			cub (bird)} datasets}
+			\item {Implemened \textbf{U-Net} architecture to predict the surface
+			mappings and \textbf{ResNet-50} powered model to predict camera parameters}
 			\item {Used the latest \textbf{PyTorch} and \textbf{PyTorch3D} libraries for the rendering of 3D template}
 		\end{cvitems}
 	}
 
 	\cventry
-	{Jimmy Abualdenien, PhD Student} % Empty position
-	{Deep Building Design Assistant} % Project
-	{TUM Munich, Germany} % Empty location
-	{June 2019 - Jan 2020} % Empty date
-	{
-		\begin{cvitems} % Description(s) bullet points
-			\item {Implemented an algorithm inspired from \textbf{Pix2Pix} to generate realistic looking 3D building plans with just the shape of the building as an input}
-			\item {Built an end to end pipline involving data generation, model training \textbf{(GAN, FCNN)} in \textbf{TensorFlow 2.2}}
-			\item {Wrote scripts using \textbf{OpenCV} to generate vectorized form from the output of the model and using Blender to generate the 3D building plans from the vectorization}
-		\end{cvitems}
-	}
-	
-	\cventry
 	{Vladimir Golkov, PhD Student} % Empty position
 	{Visualizing and understanding Network Topologies} % Project
 	{TUM Munich, Germany} % Empty location
-	{} % Empty date
+	{Nov 2019 - April 2020} % Empty date
 	{
 		\begin{cvitems} % Description(s) bullet points
 			\item {Helped designing a visual language for neural network topologies which is simpler, easier to understand and compare with other topologies}
-			\item {Designed multiple famous network topologies using the visual language.}
+			\item {Designed multiple famous network topologies \textbf{GAN,
+			Auto Encoders} using the visual language.}
 		\end{cvitems}
 	}
 	
@@ -59,7 +38,7 @@
 	{June 2019 - Aug 2019} % Empty date
 	{
 		\begin{cvitems} % Description(s) bullet points
-			\item {Using dynamo extracted various features such of the area of the walls, distribution of area in different directions, from a building model imported into revit.} 
+			\item {Using \textbf{Dynamo} extracted multiple features such of the area of the walls, distribution of area in different directions, from a building model imported into \textbf{Revit}.} 
 			\item {Trained a machine learning model to predict the type of the building using the extracted features}
 		\end{cvitems}
 	}
@@ -68,19 +47,19 @@
     {Prof. Thies Justus} % Empty position
     {3D Reconstruction via Direct Semi-Dense Visual Odometry using Stereo Camera} % Project
     {TUM Munich, Germany} % Empty location
-    {} % Empty date
+    {Jan 2019 - Feb 2019} % Empty date
     {
       \begin{cvitems} % Description(s) bullet points
       	\item {Helped implementing an algorithm to estimate Odometry from stereo camera setup in real time at 30fps.}
-		\item {Implemented a block matching algorithm to generate depth from stereo images.}
+		\item {Implemented a \textbf{block matching} algorithm to generate depth from stereo images.}
       \end{cvitems}
-    }
-
+	}
+	
 	\cventry
 	{Prof. Thies Justus} % Empty position
 	{3D Scanning and Motion Capture} % Project
 	{TUM Munich, Germany} % Empty location
-	{} % Empty date
+	{Nov 2018 - Jan 2019} % Empty date
 	{
 		\begin{cvitems} % Description(s) bullet points
 			\item {Implemented \textbf{Iterative Closest Point(ICP)} algorithm in c++ to align two bunny point clouds}
@@ -92,13 +71,13 @@
 	{Prof. Dr. Laura Leal-Taixé and Prof. Dr. Matthias Niessner} % Empty position
 	{Key point prediction on face using CNN} % Project
 	{TUM Munich, Germany} % Empty location
-	{} % Empty date
+	{Jan 2018} % Empty date
 	{
 		\begin{cvitems} % Description(s) bullet points
-			\item {Implemented a Fully Convolutional Neural Network to detect keypoints on a face using PyTorch.}
+			\item {Implemented a \textbf{Fully Convolutional Neural Network} to detect keypoints on a face using \textbf{PyTorch}.}
 		\end{cvitems}
 	}
-	
+
 	\cventry
 	{Prof. Bhaskaran Raman and Prof. Kameshwari} % Empty position
 	{SAFE (QuizApp)} % Project
@@ -106,10 +85,11 @@
 	{} % Empty date
 	{
 		\begin{cvitems} % Description(s) bullet points
-			\item {Developed an iOS application in swift which can be used by instructors to conduct examinations in classroom for students in a secure way}
+			\item {Developed an \textbf{iOS} application in \textbf{swift} and Objective-C used by
+			instructors to conduct online examinations in classroom for students
+			securely}
 		\end{cvitems}
 	}
-	
 	% \cventry
 	% {Prof. Parag Chaudari} % Empty position
 	% {Star Wars droids animation} % Project

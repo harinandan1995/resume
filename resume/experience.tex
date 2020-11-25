@@ -1,69 +1,107 @@
-\cvsection{Experience}
-
+\cvsection{Research Projects}
 \begin{cventries}
   \cventry
-    {Work Student} % Job title
-    {Deutschen Zentrums für Luft- und Raumfahrt (DLR)} % Organization
-    {Oberpfaffenhofen, Germany} % Location
-    {June 2019 - Feb. 2020} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developed an algorithm to compress a \textbf{TSDF(Truncated Sign Distance Field)} volume of a 3D scene by 64 times using \textbf{generative models}}
-        \item {Experimented with different generative model architectures and training methods using \textbf{TensorFlow}}
-        \item {Designed various \textbf{loss shaping strategies} to improve the reconstruction from the encodings}
-        \item {Added semantic information to the encodings to further improve the reconstruction}
-        \item {Helped writing code to generate segmentation data for the TSDF volumes from 3D meshes efficiently using c++}
-      \end{cvitems}
-    }
-
+  {Work Student} % Job title
+  {Deutschen Zentrums für Luft- und Raumfahrt (DLR)} % Organization
+  {Oberpfaffenhofen, Germany} % Location
+  {June 2019 - Feb. 2020} % Date(s)
+  {
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Developed an algorithm to compress a \textbf{TSDF(Truncated Sign
+    Distance Field)} volume of a 3D scene by 64 times using
+    \textbf{generative models}}
+    \item {Experimented with different generative model architectures
+    \textbf{(GAN, Generative Latent Optimization (GLO), Auto Encoders)} and
+    training methods using \textbf{TensorFlow}}
+    \item {Designed various \textbf{loss shaping} strategies to improve the
+    reconstruction from the compressed TSDF}
+    \item {Incorporated semantic information to the encodings to further improve the reconstruction}
+    \item {Helped writing code to generate segmentation data for the TSDF
+    volumes from 3D meshes efficiently using \textbf{C++}}
+  \end{cvitems}
+  }
   \cventry
-    {Software Development Engineer I} % Job title
-    {Flipkart} % Organization
-    {Bangalore, India} % Location
-    {June 2017 - August 2018} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developed a \textbf{Django} based web application for the support team to automate the debugging of an issue raised by the customer.}
-        \item {Built a \textbf{Spring} application to process huge files and queue the tasks using \textbf{Apache Kafka} and then use the spring batch framework to distribute the workload to different slave servers.}
-      \end{cvitems}
-    }
-
-  \cventry
-    {Quantitative Analyst} % Job title
-    {Dolat Capital} % Organization
-    {Mumbai, India} % Location
-    {July 2016 - May 2017} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Helped developing various strategies to trade Stock Options, Futures and Equity at very high frequency profitably.}
-        \item {Built a linear regression model with features generated using various technical indicators like Bollinger Bands, Z-score, Weighted average price.}
-        \item {Used multiple feature and model filtering techniques such as p-value, t-test, z-test, R-Squared, Variation Inflation Factor.}
-      \end{cvitems}
-    }
-
-  \cventry
-    {Software Developer Intern} % Job title
-    {Microsoft India Development Center} % Organization
-    {Hyderabad, India} % Location
-    {May. 2015 - July. 2015} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developed an Android app which enables the user to explore and obtain all required details about attractions nearby, or in any other city  }
-		\item {Extended the app to provide popular phrases pertaining to that region that could be useful along with their translation, transliteration and possible responses}
-		\item {Worked on both front-end and back-end making use of Model-View-Controller (MVC), Entity Framework, ASP.NET, Azure Web Service and Python scripts to insert data}
-      \end{cvitems}
-    }
-    
-	% \cventry
-	% {Software Developer Intern} % Job title
-	% {Shearwater} % Organization
-	% {Mumbai, India} % Location
-	% {May. 2014 - Sept. 2014} % Date(s)
-	% {
-	% 	\begin{cvitems} % Description(s) of tasks/responsibilities
-	% 		\item {Developed an iOS app for users to post about events and their requirements to be viewed by other users in the same location}
-	% 		\item {Created social groups and a chat interface for the users to text and share audio as well as picture messages}
-	% 	\end{cvitems}
-	% }
-  
+  {Prof. Rudolph Triebel} % Empty position
+  {Master Thesis - 3D Mesh Segmentation using Transformer Based Graph Operations} % Project
+  {DLR Oberpfaffenhofen, Germany} % Empty location
+  {March 2020 - Nov 2020} % Empty date
+  {
+  \begin{cvitems} % Description(s) bullet points
+    \item {Designed a new a graph convolution operation based on the famous \textbf{transformer} architecture using attention mechanism}
+    \item {Tested the effect of positional encoding on the convolution layer for
+    the task of 3D mesh segmentation on \textbf{ShapeNet} and \textbf{Coseg} dataset}
+    \item {Implemented a custom \textbf{c++/cuda extension} to \textbf{PyTorch} to dynamically calculate neighbors upto certain depth on GPU, to apply the concept of atrous conovlution.}
+  \end{cvitems}
+  }
+	\cventry
+	{Jimmy Abualdenien, PhD Student} % Empty position
+	{Deep Building Design Assistant} % Project
+	{TUM Munich, Germany} % Empty location
+	{June 2019 - Jan 2020} % Empty date
+	{
+		\begin{cvitems} % Description(s) bullet points
+			\item {Implemented an algorithm inspired from \textbf{Pix2Pix} to generate realistic looking 3D building plans with just the shape of the building as an input}
+			\item {Built an end to end pipline involving data generation, model training \textbf{(GAN, FCNN)} in \textbf{TensorFlow 2.2}}
+			\item {Wrote scripts using \textbf{OpenCV} to generate vectorized form from the output of the model and using Blender to generate the 3D building plans from the vectorization}
+		\end{cvitems}
+	}
 \end{cventries}
+\vspace{-0.8em}
+\cvsection{Experience}
+\begin{cventries}
+  \cventry
+  {Software Development Engineer I} % Job title
+  {Flipkart} % Organization
+  {Bangalore, India} % Location
+  {June 2017 - August 2018} % Date(s)
+  {
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Developed a \textbf{Django} based web application for the support
+    team to automate the debugging of an issue raised by the customer.}
+    \item {Used \textbf{Docker} to create images of the application and host
+    the web app internally}
+    \item {Built a Java \textbf{Spring} application to process huge Excel
+    files of product information from the sellers and update them in
+    Flipkart Seller system.}
+    \item {Used \textbf{Spring Batch} Remote Chunking (master slave) to
+    distribute the processing of huge files to the slaves using
+    \textbf{Apache Kafka} as a messaging system between master and the slave.}
+    \item {Used \textbf{Apache Kafka} to maintain priority queues to
+    prioritize the processing of the files of premium sellers.}
+  \end{cvitems}
+  }
+  \cventry
+  {Quantitative Analyst} % Job title
+  {Dolat Capital} % Organization
+  {Mumbai, India} % Location
+  {July 2016 - May 2017} % Date(s)
+  {
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Helped developing various strategies to trade Stock Options, Futures and Equity at very high frequency profitably.}
+    \item {Built a linear regression model with features generated using various technical indicators like Bollinger Bands, Z-score, Weighted average price.}
+    \item {Used multiple feature and model filtering techniques such as p-value, t-test, z-test, R-Squared, Variation Inflation Factor.}
+  \end{cvitems}
+  }
+  \cventry
+  {Software Developer Intern} % Job title
+  {Microsoft India Development Center} % Organization
+  {Hyderabad, India} % Location
+  {May. 2015 - July. 2015} % Date(s)
+  {
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Developed an Android app which enables the user to explore and obtain all required details about attractions nearby, or in any other city  }
+    \item {Extended the app to provide popular phrases pertaining to that region that could be useful along with their translation, transliteration and possible responses}
+    \item {Worked on both front-end and back-end making use of Model-View-Controller (MVC), Entity Framework, ASP.NET, Azure Web Service and Python scripts to insert data}
+  \end{cvitems}
+  }
+  % \cventry {Software Developer Intern} % Job title {Shearwater} % Organization
+  % {Mumbai, India} % Location {May. 2014 - Sept. 2014} % Date(s)
+  % {
+  %   \begin{cvitems} % Description(s) of tasks/responsibilities \item
+    %     {Developed an iOS app for users to post about events and their
+    %     requirements to be viewed by other users in the same location} \item
+    %     {Created social groups and a chat interface for the users to text and
+    %     share audio as well as picture messages} \end{cvitems}
+    % } 
+\end{cventries}
+  
